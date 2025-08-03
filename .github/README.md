@@ -10,7 +10,7 @@
   </a>
 </div>
 
-# 📖 Table of Contents
+# Table of Contents
 
 - [Connecting Account](#connecting-account)
     - [Connect with QR-CODE](#starting-socket-with-qr-code)
@@ -115,8 +115,9 @@
     - [How Whatsapp Communicate With Us](#how-whatsapp-communicate-with-us)
     - [Register a Callback for Websocket Events](#register-a-callback-for-websocket-events)
 
-> [!IMPORTANT NOTE]
-> The original repository was initially removed by its creator and subsequently taken over by [WhiskeySockets](https://github.com/WhiskeySockets). Building upon this foundation, I have implemented several enhancements and introduced new features that were not present in the original repository. These improvements aim to elevate functionality and provide a more robust and versatile experience.
+# Important Note
+
+The original repository was initially removed by its creator and subsequently taken over by [WhiskeySockets](https://github.com/WhiskeySockets). Building upon this foundation, I have implemented several enhancements and introduced new features that were not present in the original repository. These improvements aim to elevate functionality and provide a more robust and versatile experience.
 
 # Disclaimer
 I just re-upload the code from the original source because the latest version has not been released yet so I share and upload it here temporarily, there are no changes to the structure or content or function of the code whether it is changed or modified and so on... I just upload or re-upload it, thank you 🙏
