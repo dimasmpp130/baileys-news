@@ -22,6 +22,9 @@
 - **End-to-End Encryption** - Fully encrypted communications
 - **All Message Types** - Supports all message types (text, media, polls, etc.)
 - **Easy to Use** - Simple and intuitive API
+- **Channel Messages** - Sending messages to channels
+- **Button And Album Messages** - Can send buttons and albums and interactive messages
+- **Using Pairing & QR Code** - Can using pairing or QR code
 
 # Disclaimer
 
@@ -42,16 +45,9 @@ The maintainers of `@dimasmpp130/baileys-news` do not condone the use of this ap
 
 ### Stable Version (Recommended)
 ```bash
-yarn install github:dimasmpp130/baileys-news
+npm install @whiskeysockets/baileys@github:dimasmpp130/baileys-news
 # or
-yarn add github:dimasmpp130/baileys-news
-```
-
-### Edge Version (Latest Features)
-```bash
-yarn install github:dimasmpp130/baileys-news@latest
-# or
-yarn add github:dimasmpp130/baileys-news@latest
+yarn install @whiskeysockets/baileys@github:dimasmpp130/baileys-news
 ```
 
 ## Connecting Account
@@ -91,7 +87,7 @@ The phone number can't have `+` or `()` or `-`, only numbers, you must provide c
 ```javascript
 sock.ev.on('connection.update', async (update) => {
   const {connection, lastDisconnect, qr } = update
-  if (connection == "connecting" || !!qr) { // your choice
+  if (!!qr) { // your choice
     const code = await sock.requestPairingCode(phoneNumber)
     // send the pairing code somewhere
   }
