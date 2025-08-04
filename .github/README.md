@@ -24,7 +24,7 @@
 - **Easy to Use** - Simple and intuitive API
 - **Channel Messages** - Sending messages to channels
 - **Button And Album Messages** - Can send buttons and albums and interactive messages
-- **Using Pairing & QR Code** - Can using pairing or QR code
+- **Pairing & QR Code** - You can use it with pairing or QR code
 
 # Disclaimer
 
